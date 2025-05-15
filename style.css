@@ -72,3 +72,38 @@ body{
 .hide {
      display: none; 
 }
+@media (max-width: 600px) {
+    .container {
+        height: auto;
+        padding: 1rem;
+    }
+
+    .game {
+        width: 90vmin;
+        height: 90vmin;
+        gap: 2vmin;
+    }
+
+    .box {
+        height: 28vmin;
+        width: 28vmin;
+        font-size: 10vmin;
+    }
+
+    #msg {
+        font-size: 8vmin;
+        text-align: center;
+    }
+
+    #reset-btn, #New-btn {
+        width: 80%;
+        margin: 1rem auto;
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        margin: 1rem 0;
+    }
+}
+
